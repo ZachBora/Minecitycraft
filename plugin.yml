@@ -1,0 +1,12 @@
+name: Minecitycraft
+main: com.worldcretornica.minecitycraft.Minecitycraft
+version: 1.0
+description: >
+             Allows a player to set on fire everything he is looking at.
+commands:
+    minecitycraft:
+        description : generates a city
+        usage: minecitycraft
+    mcc:
+        description : alias for minecitycraft
+        usage: mcc
