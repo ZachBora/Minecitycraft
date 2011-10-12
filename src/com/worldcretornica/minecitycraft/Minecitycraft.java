@@ -11,7 +11,6 @@ import org.bukkit.generator.BlockPopulator;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.util.config.Configuration;
 
 import com.nijiko.permissions.PermissionHandler;
 import com.nijikokun.bukkit.Permissions.Permissions;
@@ -22,9 +21,7 @@ public final Logger logger = Logger.getLogger("Minecraft");
 	
 	public String pdfdescription;
 	private String pdfversion;
-	
-	private Configuration config;
-	
+		
 	// Permissions
     public PermissionHandler permissions;
     boolean permissions3;
@@ -109,7 +106,7 @@ public final Logger logger = Logger.getLogger("Minecraft");
 	
 	public String Caption(String caption)
 	{
-		return config.getString("Caption.Command.Build","Command to establish a city at the player's location.");
+		return "";
 	}
 	
 	private void checkConfig() {
